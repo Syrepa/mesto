@@ -1,4 +1,4 @@
-**Курс "Веб-разработчик".** Проектная работа №3
+**Курс "Веб-разработчик".** Проектная работа №4
 
 ---
 
@@ -25,4 +25,4 @@
 
 ---
 
-- [Ссылка на базовый макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+- [Ссылка на базовый макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
