@@ -1,6 +1,6 @@
-.profile {
+.profile__row {
   display: flex;
   flex-direction: row;
+  justify-items: start;
   align-items: center;
-  justify-content: space-between;
 }
