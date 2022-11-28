@@ -3,9 +3,13 @@
   color: #fff;
   box-sizing: border-box;
 }
-@media screen and (min-width: 880px) {
+@media screen and (max-width: 880px) {
   .page {
-    max-width: 880px;
-    margin: 0 auto;
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 0 19px;
   }
 }

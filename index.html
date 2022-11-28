@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body">
-    <page class="page">
+    <div class="page">
       <header class="header">
         <img src="./images/logo.png" alt="Логотип Место" class="logo" />
       </header>
@@ -105,10 +105,17 @@
             </div>
           </article>
         </section>
-        <footer class="footer">
-          <span class="footer__autor">© 2020 Mesto Russia</span>
-        </footer>
       </main>
-    </page>
+      <footer class="footer">
+        <span class="footer__autor">© 2020 Mesto Russia</span>
+      </footer>
+      <section class="popup">
+        <div class="popup__content">
+          <h3 class="popup__title">Редактировать профиль</h3>
+          <div class="popup__form"></div>
+          <button type="button" class="popup__close"></button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
