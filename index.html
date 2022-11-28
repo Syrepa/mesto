@@ -25,10 +25,7 @@
             <div class="profile__info">
               <div class="profile__row">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button
-                  class="profile__edit-btn"
-                  id="profile__edit-btn"
-                ></button>
+                <button class="profile__edit-btn"></button>
               </div>
               <p class="profile__subtitle">Исследователь океана</p>
             </div>
@@ -113,14 +110,19 @@
         <div class="popup__container">
           <h3 class="popup__title">Редактировать профиль</h3>
           <form class="popup__form">
-            <input type="text" class="popup__input" />
-            <input type="text" class="popup__input" />
+            <input
+              type="text"
+              class="popup__input popup__name"
+              placeholder="введите сообщение"
+            />
+            <input
+              type="text"
+              class="popup__input popup__job"
+              placeholder="введите сообщение"
+            />
             <button class="popup__submit-btn" type="submit">Сохранить</button>
           </form>
-          <button
-            type="button"
-            class="popup__close popup__close_active"
-          ></button>
+          <button type="button" class="popup__close"></button>
         </div>
       </section>
     </div>
