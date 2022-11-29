@@ -4,7 +4,7 @@
 
 # "Mesto"
 
-[**Russian travel**](https://syrepa.github.io/russian-travel/) (ссылка для просмотра)
+[**Mesto**](https://syrepa.github.io/mesto/) (ссылка для просмотра)
 
 ## Описание проекта
 
