@@ -2,3 +2,8 @@
   max-width: 880px;
   margin: 40px auto 0;
 }
+@media screen and (max-width: 320px) {
+  .content {
+    padding: 0 19px;
+  }
+}

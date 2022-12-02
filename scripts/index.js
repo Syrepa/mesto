@@ -29,3 +29,5 @@ function handleFormSubmit(evt) {
 popupСlose.addEventListener("click", closePopup);
 profileEditBtn.addEventListener("click", openPopup);
 formElement.addEventListener("submit", handleFormSubmit);
+
+console.log("formElement(string)");
