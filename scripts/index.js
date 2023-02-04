@@ -33,18 +33,27 @@ const profileSubtitle = document.querySelector(".profile__subtitle");
 const popupInputName = document.querySelector(".popup__input_text_name");
 const popupInputJob = document.querySelector(".popup__input_text_job");
 const formElement = document.querySelector(".popup__form");
+// Выборка для карт
 const cardContainer = document.querySelector(".elements");
-const cardTemplate = document.querySelector("#card").content;
+const cardTemplate = document
+  .querySelector("#card-template")
+  .content.querySelector(".element");
 
+// Создаем карты и выводим на страницу
 function createCard(name, link) {
-  cardElement.appendChild(cardContainer);
+  const cloneCardTemlate = cardTemplate.cloneNode(true);
+  const cardText = cloneCardTemlate.querySelector(".element__title");
+  const cardImage = cloneCardTemlate.querySelector(".element__pic");
+  cardText.append(name);
+  cardImage.setAttribute("src", link);
+  return cloneCardTemlate;
 }
-
+// Перебираем и добавляем массив с картами
 initialCards.forEach((card) => {
-  const cardElement = createCard(card.name, card.link);
+  const cardElements = createCard(card.name, card.link);
+  cardContainer.append(cardElements);
 });
-createCard();
-console.log(createCard);
+console.log();
 
 function openPopup() {
   popupOpened.classList.add("popup_opened");
